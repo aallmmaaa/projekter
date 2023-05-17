@@ -39,9 +39,17 @@ header {position: fixed;
                 font-family: 'Poppins';
                 font-weight: 200;}
                 
-.logo   {width: 150px;
+.logo   {font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: x-large;
+        width: 150px;
         margin-left: 70px;
-        margin-top: 40px;}
+        margin-top: 40px;
+        animation: color-change 3s infinite;}
+
+@keyframes color-change {0% { color: #EFD1B9; }
+                        50% { color: #E18383; }
+                        100% { color: #EFD1B9; }}
 
 .ikoner{margin-right: 70px;}
                 

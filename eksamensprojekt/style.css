@@ -23,7 +23,7 @@ h2      {color: #FA6815;
         text-align: center;
         padding: 30px;}
 
-#on-site{color: #2E614B;}
+#on-site{color: #FA6815;}
 
 /*MENU*/
                 
@@ -36,8 +36,8 @@ header {position: fixed;
 
 .hele-menu a:link       {color:#EFD1B9;}
 .hele-menu a:visited    {color:#EFD1B9;} 
-.hele-menu a:hover      {color:#2E614B;}  
-.hele-menu a:active     {color:#2E614B;}
+.hele-menu a:hover      {color:#FA6815;}  
+.hele-menu a:active     {color:#FA6815;}
                 
 .nav-menu a     {padding-right: 30px;
                 font-family: 'Playfair Display', serif;
@@ -114,7 +114,7 @@ header {position: fixed;
                 background-size: cover;}
 
 #kælder-card2   {width: 100%;
-                background-image: url(billeder+video/bogkælder.jpg);
+                background-image: url(billeder+video/gaijinramen.jpg);
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;}
@@ -230,7 +230,7 @@ header {position: fixed;
 
 /*UNDERSIDERNE*/
 
-.article-text   {text-align: left;
+.article-content{text-align: left;
                 padding-left: 200px;
                 padding-right: 200px;
                 padding-top: 100px;}
@@ -250,7 +250,17 @@ header {position: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;}
 
-#scroll5       {height: 200vh;}
+#scroll5       {height: 600vh;}
+
+#læsmere        {color: #FCD4DA;
+                font-family: 'Playfair Display', serif;
+                font-style: italic;
+                font-size: x-large;  
+                bottom: 30px;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                animation: color-change 3s infinite;}
 
 /*RESPONSIVT WEBDESIGN*/
 

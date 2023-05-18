@@ -2,18 +2,24 @@
   padding: 0;}
 
 a       {text-decoration: none;
-        color: #2E614B;}
+        color: #FCD4DA;}
 
 body    {background-color: #2E614B;}
 
-h2      {font-family: 'Playfair Display', serif;
+h1      {color: #FCD4DA;
+        font-family: 'Playfair Display', serif;
+        font-weight: 100;
+        line-height: 1;
         font-style: italic;
-        font-size: 1300;
+        font-size: 10vw;
         text-align: center;
-        padding: 300px;}
+        padding-top: 190px;}
 
-h4      {font-family: 'Playfair Display', serif;
-        font-size: large;
+h2      {color: #FA6815;
+        font-family: 'Playfair Display', serif;
+        font-weight: 100;
+        font-style: italic;
+        font-size: x-large;
         text-align: center;
         padding: 30px;}
 
@@ -35,6 +41,7 @@ header {position: fixed;
                 
 .nav-menu a     {padding-right: 30px;
                 font-family: 'Playfair Display', serif;
+                font-style: italic;
                 font-size: 120%;}
 
 .burger-menu    {visibility: hidden;
@@ -49,14 +56,14 @@ header {position: fixed;
         font-style: italic;
         font-size: x-large;
         line-height: 1;
-        color: beige;
         width: 150px;
         margin-left: 70px;
         margin-top: 40px;
         animation: color-change 3s infinite;}
 
 @keyframes color-change {0% {color:#2E614B;}
-                        50% {color:brown;}
+                        25% {color:#FA6815;}
+                        75% {color:#EFD1B9;}
                         100% {color:#2E614B;}}
                 
 
@@ -132,7 +139,7 @@ header {position: fixed;
                 bottom: 0;
                 left: 0;
                 right: 0;
-                background-color: #EFD1B9;
+                background-color: #FCD4DA;
                 overflow: hidden;
                 width: 100%;
                 height: 0;
@@ -140,11 +147,12 @@ header {position: fixed;
 
 .kælder-card:hover .kælder-overlay {height: 100%;}
 
-.kælder-overlay p       {padding-left: 40px;
+.kælder-overlay p       {color: #2E614B;
+                        padding-left: 40px;
                         padding-right: 40px;
                         padding-top: 450px;}
 
-.kælder-text    {color: brown;
+.kælder-text    {color: #FA6815;
                 font-family: 'Playfair Display', serif;
                 font-style: italic;
                 font-size: x-large;
@@ -155,7 +163,7 @@ header {position: fixed;
                 transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);}
 
-#kælder-text    {color: #E9E5D6;
+#kælder-text    {color: #FCD4DA;
                 font-family: 'Playfair Display', serif;
                 font-style: italic;
                 font-size: x-large;
@@ -171,7 +179,7 @@ header {position: fixed;
         width: 80%;
         overflow: hidden;}
 
-.card-text     {color: black;
+.card-text     {color: #FCD4DA;
                 font-family: 'Poppins', sans-serif;
                 text-align: center;
                 height: 100vh;
@@ -179,22 +187,24 @@ header {position: fixed;
                 text-align: left;}
 
 #card-text1     {background-color: #2E614B;}
-#card-text2     {background-color: brown;}
+#card-text2     {background-color: #FCD4DA;
+                color: #2E614B;}
 
 
-#card-img1      {background-image: url(billeder+video/kryptkirken.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
+.card-headline {font-family: 'Playfair Display', serif;
+                font-style: italic;
+                font-size: 12vW;
                 width: 100%;
                 height: 50%;}
 
-#card-img2      {background-image: url(billeder+video/kryptkirken.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                width: 100%;
-                height: 50%;}
+#headline1      {color: #2E614B;
+                background-color: #FCD4DA;
+                height: 100%;
+                padding-top: 30%;}
+
+#headline2      {color: #FCD4DA;
+                background-color: #2E614B;
+                padding-top: 30%;}
       
 .on-top        {position: absolute;}
 
@@ -203,25 +213,27 @@ header {position: fixed;
         transform: translate(-50%, -50%);}
 
 #nav-scroll     {list-style: none;
-                color: white;
+                color: #FCD4DA;
                 font-size: large;    
                 bottom: 30px;
                 left: 90px;}
 
 
-#nav-scroll a:link{color:white;}
-#nav-scroll a:visited{color: white;} 
-#nav-scroll a:hover{color: #2E614B;}  
-#nav-scroll a:active{color: #2E614B;}
+#nav-scroll a:link{color:#FCD4DA;}
+#nav-scroll a:visited{color: #FCD4DA;} 
+#nav-scroll a:hover{color: #FA6815;}  
+#nav-scroll a:active{color: #FA6815;}
 
 /*MENU SIDEN*/
 
 .menu-side      {padding: 300px;}
 
 /*UNDERSIDERNE*/
-.article{padding-top: 220px;}
 
-.article p      {padding: 50px;}
+.article-text   {text-align: left;
+                padding-left: 200px;
+                padding-right: 200px;
+                padding-top: 100px;}
 
 .first-article-img      {width: 100%;
                         height: 400px;
@@ -246,4 +258,8 @@ header {position: fixed;
         
         .hele-menu{visibility: hidden;} 
         .burger-menu{visibility: visible;} 
-        #nav-scroll{visibility: hidden;}}
+        #nav-scroll{visibility: hidden;}
+        .article-text{padding-left: 100px; padding-right: 100px;}
+        h1{padding-top: 40px;}
+        #headline1{padding-top: 50%;}
+        #headline2{padding-top: 50%;}}

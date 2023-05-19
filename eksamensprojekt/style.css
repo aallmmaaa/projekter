@@ -146,11 +146,6 @@ header {position: fixed;
                 left: 50%;
                 transform: translate(-50%, -50%);}
 
-#scroll3       {display: flex;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);}
-
 /*Anden side*/
 
 .kælder-card    {position: relative;
@@ -277,7 +272,17 @@ header {position: fixed;
 
 /*MENU SIDEN*/
 
-.menu-side      {padding: 300px;}
+.menu-side      {font-family: 'Playfair Display', serif;
+                font-style: italic;
+                font-size: 6vW;
+                padding-top:250px;
+                list-style: none;
+                text-align: center;}
+
+.menu-side a:link{color:#FCD4DA;}
+.menu-side a:visited{color: #FCD4DA;} 
+.menu-side a:hover{color: #FA6815;}  
+.menu-side a:active{color: #FA6815;}
 
 /*UNDERSIDERNE*/
 

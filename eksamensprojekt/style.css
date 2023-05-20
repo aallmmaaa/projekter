@@ -33,7 +33,8 @@ h3      {color: #FA6815;
         text-align: center;
         padding: 30px;}
 
-p       {padding-left: 10vw;
+p       {font-size: 2vw;
+        padding-left: 10vw;
         padding-right: 10vw;}
 
 img    {width: 70vw;}
@@ -53,19 +54,20 @@ header {position: fixed;
 .hele-menu      {display: flex;
                 justify-content: right;}
 
-.hele-menu a:link       {color:#EFD1B9;}
-.hele-menu a:visited    {color:#EFD1B9;} 
+.hele-menu a:link       {color:#FCD4DA;}
+.hele-menu a:visited    {color:#FCD4DA;} 
 .hele-menu a:hover      {color:#FA6815;}  
 .hele-menu a:active     {color:#FA6815;}
-                
-.nav-menu a     {padding-right: 30px;
+
+.nav-menu a     {padding-right: 45px;
                 font-family: 'Playfair Display', serif;
                 font-style: italic;
-                font-size: 120%;}
+                font-size: 1vw;}
 
-.burger-menu    {visibility: hidden;
+.burger-menu    {display: none;
                 margin-top: 2px;
-                margin-right: 70px;}
+                margin-right: 45px;
+                list-style: none;}
 
 .burger-menu a {font-size:400%;
                 font-family: 'Poppins';
@@ -75,8 +77,8 @@ header {position: fixed;
         font-style: italic;
         font-size: x-large;
         line-height: 1;
-        width: 150px;
-        margin-top: 40px;}
+        margin-top: 40px;
+        margin-left: 45px;}
 
 @keyframes color-change {0% {color:#2E614B;}
                         25% {color:#FA6815;}
@@ -143,6 +145,11 @@ header {position: fixed;
         left: 50%;
         transform: translate(-50%, -50%);}
 
+#info   {top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5vw;}
+
 /*navigation scroll*/
 
 #nav-scroll     {list-style: none;
@@ -160,7 +167,7 @@ header {position: fixed;
 
 .menu-side      {font-family: 'Playfair Display', serif;
                 font-style: italic;
-                font-size: 6vW;
+                font-size: 6vw;
                 padding-top:250px;
                 list-style: none;
                 text-align: center;}
@@ -179,6 +186,17 @@ header {position: fixed;
                         scroll-behavior: smooth;
                         z-index: 0;}
 
+h4              {color: #FCD4DA;
+                font-family: 'Playfair Display', serif;
+                font-weight: 100;
+                line-height: 1;
+                font-style: italic;
+                font-size: 9vw;
+                text-align: center;
+                padding-top: 190px;
+                padding-left: 6vw;
+                padding-right: 6vw;}
+
 .article-content{text-align: left;
                 padding-left: 200px;
                 padding-right: 200px;
@@ -191,16 +209,7 @@ header {position: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;}
 
-#scroll11       {height: 600vh;}
-
-h4              {color: #FCD4DA;
-                font-family: 'Playfair Display', serif;
-                font-weight: 100;
-                line-height: 1;
-                font-style: italic;
-                font-size: 9vw;
-                text-align: center;
-                padding-top: 190px;}
+#scroll11       {height: 400vh;}
 
 #læsmere        {color: #FCD4DA;
                 font-family: 'Playfair Display', serif;
@@ -217,11 +226,26 @@ h4              {color: #FCD4DA;
 @media only screen and (max-width: 1000px){
         
         .hele-menu{visibility: hidden;} 
-        .burger-menu{visibility: visible;} 
+        .burger-menu{visibility: visible; display: list-item;} 
         #nav-scroll{visibility: hidden;}
         .article-content{padding-left: 50px; padding-right: 50px;}
         #headline1{padding-top: 50%;}
         #headline2{padding-top: 50%;}
         .scroller-article #læsmere {visibility: hidden;}
         h1{margin-top: 35vw;}
-        h4{padding-top: 5vw;} }
+        h4{padding-top: 5vw;} 
+        p{font-size: 3vw;}
+        }
+
+@media only screen and (max-width: 414px){
+        
+        .hele-menu{visibility: hidden;} 
+        .burger-menu{visibility: visible;} 
+        #nav-scroll{visibility: hidden;}
+        .article-content{padding-left: 40px; padding-right: 40px;}
+        .scroller-article #læsmere {visibility: hidden;}
+        h1{margin-top: 60vw; font-size: 14vw;}
+        h4{padding-top: 8vw;} 
+        h2{font-size: 10vw; width: 100%;}
+        p{padding-left: 2vw; padding-right: 2vw; font-size: 5vw;}
+        .logo{margin-left: 30px; font-size: large;}}

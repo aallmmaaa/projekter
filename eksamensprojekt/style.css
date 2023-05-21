@@ -12,7 +12,7 @@ h1      {color: #FCD4DA;
         line-height: 1;
         font-style: italic;
         font-size: 8vw;
-        margin-top: 12vw;
+        margin-top: 8vw;
         margin-left: 5vw;
         margin-right: 5vw;}
 
@@ -22,7 +22,7 @@ h2      {color: #FCD4DA;
         font-style: italic;
         font-size: 6vw;
         text-align: center;
-        padding-top: 190px;
+        
         line-height: 2; }
 
 h3      {color: #FA6815;
@@ -37,7 +37,6 @@ p       {font-size: 2vw;
         padding-left: 10vw;
         padding-right: 10vw;}
 
-img    {width: 70vw;}
 
 #on-site{color: #FA6815;}
 
@@ -198,9 +197,15 @@ h4              {color: #FCD4DA;
                 padding-right: 6vw;}
 
 .article-content{text-align: left;
-                padding-left: 200px;
-                padding-right: 200px;
+                padding-left: 15vw;
+                padding-right: 15vw;
                 padding-top: 50px;}
+
+img     {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        padding-top: 50px;}
 
 #video{width: 100%;}
 
@@ -209,7 +214,7 @@ h4              {color: #FCD4DA;
                 background-repeat: no-repeat;
                 background-size: cover;}
 
-#scroll11       {height: 400vh;}
+#scroll11       {height: auto;}
 
 #læsmere        {color: #FCD4DA;
                 font-family: 'Playfair Display', serif;
@@ -217,6 +222,15 @@ h4              {color: #FCD4DA;
                 font-size: x-large;  
                 bottom: 30px;
                 top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                animation: color-change 3s infinite;}
+
+#læsmindre      {color: #FCD4DA;
+                font-family: 'Playfair Display', serif;
+                font-style: italic;
+                font-size: x-large;  
+                top:10%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 animation: color-change 3s infinite;}
@@ -232,10 +246,11 @@ h4              {color: #FCD4DA;
         #headline1{padding-top: 50%;}
         #headline2{padding-top: 50%;}
         .scroller-article #læsmere {visibility: hidden;}
-        h1{margin-top: 35vw;}
+        h1{margin-top: 30vw;}
         h4{padding-top: 5vw;} 
-        p{font-size: 3vw;}
-        }
+        p{font-size: 2vw;}}
+
+@media only screen and (max-width: 664px){p{font-size: 3vw;}}
 
 @media only screen and (max-width: 414px){
         
@@ -244,8 +259,8 @@ h4              {color: #FCD4DA;
         #nav-scroll{visibility: hidden;}
         .article-content{padding-left: 40px; padding-right: 40px;}
         .scroller-article #læsmere {visibility: hidden;}
-        h1{margin-top: 60vw; font-size: 14vw;}
+        h1{margin-top: 60vw; font-size: 12vw;}
         h4{padding-top: 8vw;} 
         h2{font-size: 10vw; width: 100%;}
-        p{padding-left: 2vw; padding-right: 2vw; font-size: 5vw;}
-        .logo{margin-left: 30px; font-size: large;}}
+        p{padding-left: 2vw; padding-right: 2vw; font-size: 4vw;}
+        .logo{margin-left: 30px; font-size: medium;}}

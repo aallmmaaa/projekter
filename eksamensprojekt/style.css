@@ -4,6 +4,11 @@
 a       {text-decoration: none;
         color: #FCD4DA;}
 
+#link:link       {color:#FCD4DA;}
+#link:visited    {color:#FCD4DA;} 
+#link:hover      {color:#FA6815;}  
+#link:active     {color:#FA6815;}
+
 body    {background-color: #2E614B;}
 
 h1      {color: #FCD4DA;
@@ -25,6 +30,8 @@ h2      {color: #FCD4DA;
         
         line-height: 2; }
 
+h2:hover {color:#FA6815;}
+
 h3      {color: #FA6815;
         font-family: 'Playfair Display', serif;
         font-weight: 100;
@@ -33,14 +40,16 @@ h3      {color: #FA6815;
         text-align: center;
         padding: 30px;}
 
-p       {font-size: 2vw;
+p       {color: #FCD4DA;
+        font-size: 2vw;
         padding-left: 10vw;
-        padding-right: 10vw;}
+        padding-right: 10vw;
+        font-family: 'Poppins', sans-serif;}
 
 
 #on-site{color: #FA6815;}
 
-#rute   {font-family: 'Poppins';
+#rute   {font-family: 'Poppins', sans-serif;
         font-style: normal;
         line-height: 4;}
 
@@ -69,7 +78,7 @@ header {position: fixed;
                 list-style: none;}
 
 .burger-menu a {font-size:400%;
-                font-family: 'Poppins';
+                font-family: 'Poppins', sans-serif;
                 font-weight: 200;}
                 
 .logo   {font-family: 'Playfair Display', serif;
@@ -178,6 +187,9 @@ header {position: fixed;
 
 /*UNDERSIDERNE*/
 
+.video-article  {aspect-ratio: 16/9;
+                width: 100%;}
+
 .scroller-article       {visibility: visible;
                         height: 100vh;
                         overflow-y: scroll;
@@ -204,10 +216,11 @@ h4              {color: #FCD4DA;
 img     {display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 100%;
         padding-top: 50px;}
 
-#video{width: 100%;}
+#video{width: 100%;
+        height: 100%;}
 
 #scroll10        {width: 100%;
                 background-position: center;

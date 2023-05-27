@@ -27,7 +27,6 @@ h2      {color: #FCD4DA;
         font-style: italic;
         font-size: 6vw;
         text-align: center;
-        
         line-height: 2; }
 
 h2:hover {color:#FA6815;}
@@ -204,7 +203,7 @@ h4              {color: #FCD4DA;
                 font-style: italic;
                 font-size: 9vw;
                 text-align: center;
-                padding-top: 190px;
+                padding-top: 100px;
                 padding-left: 6vw;
                 padding-right: 6vw;}
 
@@ -222,12 +221,7 @@ img     {display: block;
 #video{width: 100%;
         height: 100%;}
 
-#scroll10        {width: 100%;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;}
-
-#scroll11       {height: auto;}
+#scroll10       {height: auto;}
 
 #læsmere        {color: #FCD4DA;
                 font-family: 'Playfair Display', serif;
@@ -261,9 +255,13 @@ img     {display: block;
         .scroller-article #læsmere {visibility: hidden;}
         h1{margin-top: 30vw;}
         h4{padding-top: 5vw;} 
-        p{font-size: 2vw;}}
+        p{font-size: 2vw;}
+        #info{font-size: 4vw;}}
 
-@media only screen and (max-width: 664px){p{font-size: 3vw;}}
+@media only screen and (max-width: 664px){
+        p{font-size: 3vw;}
+        #læsmere{top: 83%;}
+        #læsmindre{top:17%;}}
 
 @media only screen and (max-width: 414px){
         
@@ -272,8 +270,9 @@ img     {display: block;
         #nav-scroll{visibility: hidden;}
         .article-content{padding-left: 40px; padding-right: 40px;}
         .scroller-article #læsmere {visibility: hidden;}
-        h1{margin-top: 60vw; font-size: 12vw;}
+        h1{margin-top: 40vw; font-size: 12vw;}
         h4{padding-top: 8vw;} 
         h2{font-size: 10vw; width: 100%;}
         p{padding-left: 2vw; padding-right: 2vw; font-size: 4vw;}
-        .logo{margin-left: 30px; font-size: medium;}}
+        .logo{margin-left: 30px; font-size: medium;}
+        #info{font-size: 5vw;}}
